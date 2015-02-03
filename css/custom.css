@@ -1,0 +1,17 @@
+body {
+  background-color: #c8f7c5;
+  margin: 50px 50px 50px 50px; }
+
+.container {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  color: #1e824c; }
+
+.inner {
+  background: red; }
+
+.submit {
+  background-color: blue; }
+
+/*# sourceMappingURL=custom.css.map */

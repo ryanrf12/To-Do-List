@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".submit").on("click",function(){var n=$("input[name=item]").val();$("ol").append("<li>"+n+"</li>")})});
