@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".submit").on("click",function(){var n=$("input[name=item]").val();$("ol").append("<li>"+n+"</li>")})});
+$(document).ready(function(){var n=function(){var n=$("input[name=item]").val();0!=n.length?$(".list").append("<li>"+n+"</li>"):alert("Entry needed!")};$(".submit").on("click",function(){n()}),$("input").keypress(function(t){13===t.keyCode&&(t.preventDefault(),n())}),$(document).on("dblclick","li",function(){$(this).fadeOut("slow")}),$(document).on("click","li",function(){$(this).toggleClass("strike")}),$(".list").sortable()});
