@@ -2,10 +2,12 @@ $(document).ready(function() {
 
 	var addItem = function () {
 		var add = $("input[name=item]").val();
-		if(add.length != 0) {
-		  $(".list").append("<li>" + add + "</li>");
+		if(add.length !== 0) {
+		  $(".list").append("<li class='item'>" + add + "</li>");
+		  $("input").val("");
+		  $(".error").text("");
 		} else {
-			alert("Entry needed!");
+			$(".error").text("Invalid Entry");
 		}
 	};
 
@@ -18,6 +20,17 @@ $(document).ready(function() {
 			e.preventDefault();
 			addItem();
 		}
+	});
+
+	$(".clear").on("click", function() {
+		$(".strike").remove();
+		$("input").val("");
+		$(".error").text("");
+	});
+
+	$(".clear-all").on("click", function() {
+		$(".item").remove();
+		$(".error").text("");
 	});
 
 	$(document).on("dblclick", "li", function() {

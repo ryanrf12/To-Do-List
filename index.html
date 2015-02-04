@@ -11,14 +11,17 @@
   	<div class="upper"><h1>To-Do List</h1></div>
   	<div class="inner">
 
-  	<p><em>Enter an item, click to check/uncheck, drag to reorder, double-click to remove.</em></p>
-
+  	<p>Click to check/uncheck, drag to reorder, double-click to remove.</p>
   	<form>
-  		<input type="text" name="item"></input>
+  		<input type="text" name="item" placeholder="Enter item..."></input>
+  		<span class="error"></span>
   	</form>
 
+  	<div class="btns">
   	<button class="submit">ADD ITEM</button>
-  	
+  	<button class="clear">CLEAR</button>
+  	<button class="clear-all">CLEAR LIST</button>
+  	</div>
   	<ol class="list"></ol> 
   	</div>
 
