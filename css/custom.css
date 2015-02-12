@@ -1,71 +1,37 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:100);
-body {
-  background-color: #333;
-  margin: 50px 50px 50px 50px; }
+body { background-color: #333; margin: 50px 50px 50px 50px; }
 
-h1 {
-  margin: 0; }
+h1 { margin: 0; }
 
 /* CONTAINERS ====================*/
-.container {
-  margin: 100px auto;
-  width: 100%;
-  text-align: center;
-  font-family: "Roboto";
-  color: white; }
+.container { margin: 100px auto; width: 100%; text-align: center; font-family: "Roboto"; color: white; }
 
-.upper {
-  width: 90%;
-  margin: 0 auto;
-  background-color: #8E44AD; }
+.upper { width: 90%; margin: 0 auto; background-color: #8E44AD; }
 
-.inner {
-  background: #674172;
-  width: 90%;
-  margin: 0 auto;
-  overflow: auto; }
+.inner { background: #674172; width: 90%; height: 400px; margin: 0 auto; overflow: auto; }
 
 /* LIST ==========================*/
-input {
-  width: 50%; }
+input { width: 50%; height: 35px; font-size: 18px; }
 
-ol li {
-  text-align: left;
-  padding: 2px; }
+ol li { text-align: left; padding: 2px; }
 
-ol li:nth-child(even) {
-  background-color: #8E44AD; }
+ol li:nth-child(even) { background-color: #8E44AD; }
 
-.strike {
-  text-decoration: line-through; }
+.strike { text-decoration: line-through; }
 
-.error {
-  color: red; }
+.error { color: red; }
 
 /* BUTTONS =========================*/
-button {
-  height: 30px;
-  width: 100px;
-  border: none;
-  border-radius: 5px;
-  color: #fff; }
+button { height: 30px; width: 100px; border: none; border-radius: 5px; color: #fff; }
 
-.submit {
-  background-color: #1F3A93; }
+.submit { background-color: #1F3A93; }
 
-.submit:hover {
-  background-color: #3A539B; }
+.submit:hover { background-color: #3A539B; }
 
-.clear {
-  background-color: #6C7A89; }
+.clear { background-color: #6C7A89; }
 
-.clear:hover {
-  background-color: #95A5A6; }
+.clear:hover { background-color: #95A5A6; }
 
-.clear-all {
-  background-color: #CF000F; }
+.clear-all { background-color: #CF000F; }
 
-.clear-all:hover {
-  background-color: #D91E18; }
-
-/*# sourceMappingURL=custom.css.map */
+.clear-all:hover { background-color: #D91E18; }

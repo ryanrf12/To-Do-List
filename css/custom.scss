@@ -24,6 +24,7 @@ h1 {
 .inner {
 	background: #674172;
 	width: 90%;
+	height: 400px;
 	margin: 0 auto;
 	overflow: auto;
 }
@@ -31,6 +32,8 @@ h1 {
 /* LIST ==========================*/
 input {
 	width: 50%;
+	height: 35px;
+	font-size: 18px;
 }
 
 ol li {
